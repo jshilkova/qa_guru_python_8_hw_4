@@ -85,3 +85,5 @@ def test_dicts():
 
     assert isinstance(d, dict)
     assert len(d) == 5
+
+    print(list(d.values()))
